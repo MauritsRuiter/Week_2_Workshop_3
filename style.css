@@ -1,0 +1,134 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#left {
+  vertical-align: top;
+  display: inline-block;
+  width: 140px;
+  height: 342px;
+  background-color: #030399;
+  border-radius: 5px;
+}
+
+#spoor1 {
+  background-color: #fff;
+  width: 106px;
+  height: 106px;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+#spoor1-hoekje {
+  width: 25px;
+  height: 25px;
+  background-color: #030399;
+}
+
+#spoor-text-vast {
+  font-weight: bold;
+  margin-left: 28px;
+  color: #030399;
+}
+
+#text-spoor {
+  color: #030399;
+  font-size: 57px;
+  margin-top: 5px;
+  margin-left: 34px;
+}
+
+#content {
+  color: #000066;
+  vertical-align: top;
+  display: inline-block;
+  width: 500px;
+  height: 260px;
+  border: solid 41px #000066;
+  border-radius: 5px;
+}
+
+#tijd {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#ns-logo {
+  float: right;
+  width: 70px;
+  height: 30px;
+  margin-top: 7px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#welke-trein {
+  float: right;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#plaats {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#waarnaartoe {
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin-top: 36px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#bottom-kaart1 {
+  font-size: small;
+  font-weight: bold;
+  background-color: #000066;
+  border: solid 1px #000066;
+  color: #fff;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+#bottom-kaart2 {
+  font-size: small;
+  font-weight: bold;
+  background-color: #000066;
+  border: solid 1px #000066;
+  color: #fff;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+#right {
+  vertical-align: top;
+  display: inline-block;
+  background-color: #b4aca5;
+  height: 342px;
+  width: 225px;
+  border-radius: 5px;
+}
+
+#canvas {
+  cursor: pointer;
+  margin-top: 12px;
+  margin-left: 12px;
+}
